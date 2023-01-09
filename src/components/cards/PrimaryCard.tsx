@@ -13,11 +13,9 @@ interface PrimaryCardProps {
   icon: any;
 }
 export default function PrimaryCard({title, icon}: PrimaryCardProps) {
-  const card = require('../../assets/img/card.png');
-
   return (
     <TouchableOpacity style={styles.container}>
-      <ImageBackground style={styles.background} source={card}>
+      <ImageBackground style={styles.background}>
         <View style={styles.content}>
           <Image style={styles.icon} source={icon} />
           <Text style={styles.heading}>{title}</Text>

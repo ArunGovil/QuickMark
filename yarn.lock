@@ -5800,6 +5800,11 @@ react-native-codegen@^0.70.6:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
+react-native-flatboard@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-flatboard/-/react-native-flatboard-1.0.5.tgz#e02e24391b58534d3aba47adc755a232592fc03f"
+  integrity sha512-/R0heTZuE/bdWivc25+DEnB+R/KQw/OrjpiGw0MuLcTmxtF1g8nIZaiF3tj93hmaBofjD7a9TvkhhdVWeDFWsA==
+
 react-native-gesture-handler@^2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-2.8.0.tgz#ef9857871c10663c95a51546225b6e00cd4740cf"

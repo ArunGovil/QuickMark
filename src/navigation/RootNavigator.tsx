@@ -2,6 +2,7 @@ import React, {createContext, useEffect, useState} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from '../screens/HomeScreen';
+import BoardingScreen from '../screens/BoardingScreen';
 
 const Stack = createNativeStackNavigator();
 export const AppContext = createContext(null);
@@ -18,6 +19,7 @@ const RootNavigator = () => {
       <AppContext.Provider value={isInitialized}>
         <Stack.Navigator screenOptions={{headerShown: false}}>
           <Stack.Group>
+            <Stack.Screen name="OnBoarding" component={BoardingScreen} />
             <Stack.Screen name="Sidebar" component={HomeScreen} />
           </Stack.Group>
         </Stack.Navigator>
