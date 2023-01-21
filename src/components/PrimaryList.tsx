@@ -1,27 +1,27 @@
 import {View, StyleSheet, FlatList} from 'react-native';
 import React from 'react';
-import {PrimaryCard} from '../../components';
+import {PrimaryCard} from '../components';
 
 const Items = [
   {
     id: 1,
     title: 'Links',
-    icon: require('../../assets/img/user.png'),
+    icon: require('../assets/img/user.png'),
   },
   {
     id: 2,
     title: 'Quotes',
-    icon: require('../../assets/img/user.png'),
+    icon: require('../assets/img/user.png'),
   },
   {
     id: 3,
     title: 'Passwords',
-    icon: require('../../assets/img/user.png'),
+    icon: require('../assets/img/user.png'),
   },
   {
     id: 4,
     title: 'Notes',
-    icon: require('../../assets/img/user.png'),
+    icon: require('../assets/img/user.png'),
   },
 ];
 

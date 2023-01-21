@@ -1,0 +1,18 @@
+
+[!] Invalid `Podfile` file: 
+[!] Invalid `RNGestureHandler.podspec` file: undefined method `exists?' for File:Class.
+
+ #  from /Users/user/Development/QuickMark/node_modules/react-native-gesture-handler/RNGestureHandler.podspec:5
+ #  -------------------------------------------
+ #  
+ >  isUserApp = File.exists?(File.join(__dir__, "..", "..", "node_modules", "react-native", "package.json"))
+ #  if isUserApp
+ #  -------------------------------------------
+.
+
+ #  from /Users/user/Development/QuickMark/ios/Podfile:8
+ #  -------------------------------------------
+ #  target 'quickmark' do
+ >    config = use_native_modules!
+ #  
+ #  -------------------------------------------

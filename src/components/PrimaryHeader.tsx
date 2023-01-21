@@ -2,7 +2,7 @@ import {View, Image, StyleSheet, Text} from 'react-native';
 import React from 'react';
 
 export default function PrimaryHeader() {
-  const user = require('../../assets/img/user.png');
+  const user = require('../assets/img/user.png');
 
   return (
     <View style={styles.container}>

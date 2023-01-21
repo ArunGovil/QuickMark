@@ -1,6 +1,9 @@
 //sections
-export {default as PrimaryHeader} from './sections/PrimaryHeader';
-export {default as PrimaryList} from './sections/PrimaryList';
+export {default as PrimaryHeader} from './PrimaryHeader';
+export {default as PrimaryList} from './PrimaryList';
 
 //cards
-export {default as PrimaryCard} from './cards/PrimaryCard';
+export {default as PrimaryCard} from './PrimaryCard';
+
+//other
+export {default as FloatingButton} from './FloatingButton';
